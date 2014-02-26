@@ -22,6 +22,7 @@
 		EE57F2B318BD96E4008F0796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F29218BD96E4008F0796 /* UIKit.framework */; };
 		EE57F2BB18BD96E4008F0796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE57F2B918BD96E4008F0796 /* InfoPlist.strings */; };
 		EE57F2BD18BD96E4008F0796 /* ARMarkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57F2BC18BD96E4008F0796 /* ARMarkerTests.m */; };
+		EEF0CAAC18BD9EC300759A8A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF0CAAB18BD9EC300759A8A /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EE57F2B818BD96E4008F0796 /* ARMarkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARMarkerTests-Info.plist"; sourceTree = "<group>"; };
 		EE57F2BA18BD96E4008F0796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE57F2BC18BD96E4008F0796 /* ARMarkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMarkerTests.m; sourceTree = "<group>"; };
+		EEF0CAAB18BD9EC300759A8A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF0CAAC18BD9EC300759A8A /* opencv2.framework in Frameworks */,
 				EE57F29118BD96E4008F0796 /* CoreGraphics.framework in Frameworks */,
 				EE57F29318BD96E4008F0796 /* UIKit.framework in Frameworks */,
 				EE57F28F18BD96E4008F0796 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		EE57F28D18BD96E4008F0796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEF0CAAB18BD9EC300759A8A /* opencv2.framework */,
 				EE57F28E18BD96E4008F0796 /* Foundation.framework */,
 				EE57F29018BD96E4008F0796 /* CoreGraphics.framework */,
 				EE57F29218BD96E4008F0796 /* UIKit.framework */,
@@ -393,6 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/twopi/twopi/armarker-local/ARMarker",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
 				INFOPLIST_FILE = "ARMarker/ARMarker-Info.plist";
@@ -406,6 +414,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/twopi/twopi/armarker-local/ARMarker",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
 				INFOPLIST_FILE = "ARMarker/ARMarker-Info.plist";
@@ -475,6 +487,7 @@
 				EE57F2C218BD96E4008F0796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE57F2C318BD96E4008F0796 /* Build configuration list for PBXNativeTarget "ARMarkerTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +496,7 @@
 				EE57F2C518BD96E4008F0796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
