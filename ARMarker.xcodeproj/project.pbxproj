@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE57F28F18BD96E4008F0796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F28E18BD96E4008F0796 /* Foundation.framework */; };
+		EE57F29118BD96E4008F0796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F29018BD96E4008F0796 /* CoreGraphics.framework */; };
+		EE57F29318BD96E4008F0796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F29218BD96E4008F0796 /* UIKit.framework */; };
+		EE57F29918BD96E4008F0796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE57F29718BD96E4008F0796 /* InfoPlist.strings */; };
+		EE57F29B18BD96E4008F0796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57F29A18BD96E4008F0796 /* main.m */; };
+		EE57F29F18BD96E4008F0796 /* com_twopiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57F29E18BD96E4008F0796 /* com_twopiAppDelegate.m */; };
+		EE57F2A218BD96E4008F0796 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE57F2A018BD96E4008F0796 /* Main_iPhone.storyboard */; };
+		EE57F2A518BD96E4008F0796 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE57F2A318BD96E4008F0796 /* Main_iPad.storyboard */; };
+		EE57F2A818BD96E4008F0796 /* com_twopiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57F2A718BD96E4008F0796 /* com_twopiViewController.m */; };
+		EE57F2AA18BD96E4008F0796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE57F2A918BD96E4008F0796 /* Images.xcassets */; };
+		EE57F2B118BD96E4008F0796 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F2B018BD96E4008F0796 /* XCTest.framework */; };
+		EE57F2B218BD96E4008F0796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F28E18BD96E4008F0796 /* Foundation.framework */; };
+		EE57F2B318BD96E4008F0796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE57F29218BD96E4008F0796 /* UIKit.framework */; };
+		EE57F2BB18BD96E4008F0796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE57F2B918BD96E4008F0796 /* InfoPlist.strings */; };
+		EE57F2BD18BD96E4008F0796 /* ARMarkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE57F2BC18BD96E4008F0796 /* ARMarkerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE57F2B418BD96E4008F0796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE57F28318BD96E4008F0796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE57F28A18BD96E4008F0796;
+			remoteInfo = ARMarker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE57F28B18BD96E4008F0796 /* ARMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE57F28E18BD96E4008F0796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE57F29018BD96E4008F0796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE57F29218BD96E4008F0796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE57F29618BD96E4008F0796 /* ARMarker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARMarker-Info.plist"; sourceTree = "<group>"; };
+		EE57F29818BD96E4008F0796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE57F29A18BD96E4008F0796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE57F29C18BD96E4008F0796 /* ARMarker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARMarker-Prefix.pch"; sourceTree = "<group>"; };
+		EE57F29D18BD96E4008F0796 /* com_twopiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_twopiAppDelegate.h; sourceTree = "<group>"; };
+		EE57F29E18BD96E4008F0796 /* com_twopiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_twopiAppDelegate.m; sourceTree = "<group>"; };
+		EE57F2A118BD96E4008F0796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EE57F2A418BD96E4008F0796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EE57F2A618BD96E4008F0796 /* com_twopiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_twopiViewController.h; sourceTree = "<group>"; };
+		EE57F2A718BD96E4008F0796 /* com_twopiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_twopiViewController.m; sourceTree = "<group>"; };
+		EE57F2A918BD96E4008F0796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE57F2AF18BD96E4008F0796 /* ARMarkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMarkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE57F2B018BD96E4008F0796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE57F2B818BD96E4008F0796 /* ARMarkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARMarkerTests-Info.plist"; sourceTree = "<group>"; };
+		EE57F2BA18BD96E4008F0796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE57F2BC18BD96E4008F0796 /* ARMarkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMarkerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE57F28818BD96E4008F0796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F29118BD96E4008F0796 /* CoreGraphics.framework in Frameworks */,
+				EE57F29318BD96E4008F0796 /* UIKit.framework in Frameworks */,
+				EE57F28F18BD96E4008F0796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE57F2AC18BD96E4008F0796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F2B118BD96E4008F0796 /* XCTest.framework in Frameworks */,
+				EE57F2B318BD96E4008F0796 /* UIKit.framework in Frameworks */,
+				EE57F2B218BD96E4008F0796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE57F28218BD96E4008F0796 = {
+			isa = PBXGroup;
+			children = (
+				EE57F29418BD96E4008F0796 /* ARMarker */,
+				EE57F2B618BD96E4008F0796 /* ARMarkerTests */,
+				EE57F28D18BD96E4008F0796 /* Frameworks */,
+				EE57F28C18BD96E4008F0796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE57F28C18BD96E4008F0796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F28B18BD96E4008F0796 /* ARMarker.app */,
+				EE57F2AF18BD96E4008F0796 /* ARMarkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE57F28D18BD96E4008F0796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F28E18BD96E4008F0796 /* Foundation.framework */,
+				EE57F29018BD96E4008F0796 /* CoreGraphics.framework */,
+				EE57F29218BD96E4008F0796 /* UIKit.framework */,
+				EE57F2B018BD96E4008F0796 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE57F29418BD96E4008F0796 /* ARMarker */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F29D18BD96E4008F0796 /* com_twopiAppDelegate.h */,
+				EE57F29E18BD96E4008F0796 /* com_twopiAppDelegate.m */,
+				EE57F2A018BD96E4008F0796 /* Main_iPhone.storyboard */,
+				EE57F2A318BD96E4008F0796 /* Main_iPad.storyboard */,
+				EE57F2A618BD96E4008F0796 /* com_twopiViewController.h */,
+				EE57F2A718BD96E4008F0796 /* com_twopiViewController.m */,
+				EE57F2A918BD96E4008F0796 /* Images.xcassets */,
+				EE57F29518BD96E4008F0796 /* Supporting Files */,
+			);
+			path = ARMarker;
+			sourceTree = "<group>";
+		};
+		EE57F29518BD96E4008F0796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F29618BD96E4008F0796 /* ARMarker-Info.plist */,
+				EE57F29718BD96E4008F0796 /* InfoPlist.strings */,
+				EE57F29A18BD96E4008F0796 /* main.m */,
+				EE57F29C18BD96E4008F0796 /* ARMarker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE57F2B618BD96E4008F0796 /* ARMarkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F2BC18BD96E4008F0796 /* ARMarkerTests.m */,
+				EE57F2B718BD96E4008F0796 /* Supporting Files */,
+			);
+			path = ARMarkerTests;
+			sourceTree = "<group>";
+		};
+		EE57F2B718BD96E4008F0796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE57F2B818BD96E4008F0796 /* ARMarkerTests-Info.plist */,
+				EE57F2B918BD96E4008F0796 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE57F28A18BD96E4008F0796 /* ARMarker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57F2C018BD96E4008F0796 /* Build configuration list for PBXNativeTarget "ARMarker" */;
+			buildPhases = (
+				EE57F28718BD96E4008F0796 /* Sources */,
+				EE57F28818BD96E4008F0796 /* Frameworks */,
+				EE57F28918BD96E4008F0796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMarker;
+			productName = ARMarker;
+			productReference = EE57F28B18BD96E4008F0796 /* ARMarker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE57F2AE18BD96E4008F0796 /* ARMarkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57F2C318BD96E4008F0796 /* Build configuration list for PBXNativeTarget "ARMarkerTests" */;
+			buildPhases = (
+				EE57F2AB18BD96E4008F0796 /* Sources */,
+				EE57F2AC18BD96E4008F0796 /* Frameworks */,
+				EE57F2AD18BD96E4008F0796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE57F2B518BD96E4008F0796 /* PBXTargetDependency */,
+			);
+			name = ARMarkerTests;
+			productName = ARMarkerTests;
+			productReference = EE57F2AF18BD96E4008F0796 /* ARMarkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE57F28318BD96E4008F0796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.twopi;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TwoPi;
+				TargetAttributes = {
+					EE57F2AE18BD96E4008F0796 = {
+						TestTargetID = EE57F28A18BD96E4008F0796;
+					};
+				};
+			};
+			buildConfigurationList = EE57F28618BD96E4008F0796 /* Build configuration list for PBXProject "ARMarker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE57F28218BD96E4008F0796;
+			productRefGroup = EE57F28C18BD96E4008F0796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE57F28A18BD96E4008F0796 /* ARMarker */,
+				EE57F2AE18BD96E4008F0796 /* ARMarkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE57F28918BD96E4008F0796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F2A518BD96E4008F0796 /* Main_iPad.storyboard in Resources */,
+				EE57F2AA18BD96E4008F0796 /* Images.xcassets in Resources */,
+				EE57F2A218BD96E4008F0796 /* Main_iPhone.storyboard in Resources */,
+				EE57F29918BD96E4008F0796 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE57F2AD18BD96E4008F0796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F2BB18BD96E4008F0796 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE57F28718BD96E4008F0796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F29F18BD96E4008F0796 /* com_twopiAppDelegate.m in Sources */,
+				EE57F29B18BD96E4008F0796 /* main.m in Sources */,
+				EE57F2A818BD96E4008F0796 /* com_twopiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE57F2AB18BD96E4008F0796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57F2BD18BD96E4008F0796 /* ARMarkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE57F2B518BD96E4008F0796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE57F28A18BD96E4008F0796 /* ARMarker */;
+			targetProxy = EE57F2B418BD96E4008F0796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE57F29718BD96E4008F0796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE57F29818BD96E4008F0796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE57F2A018BD96E4008F0796 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE57F2A118BD96E4008F0796 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EE57F2A318BD96E4008F0796 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE57F2A418BD96E4008F0796 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EE57F2B918BD96E4008F0796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE57F2BA18BD96E4008F0796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE57F2BE18BD96E4008F0796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE57F2BF18BD96E4008F0796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE57F2C118BD96E4008F0796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
+				INFOPLIST_FILE = "ARMarker/ARMarker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE57F2C218BD96E4008F0796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
+				INFOPLIST_FILE = "ARMarker/ARMarker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE57F2C418BD96E4008F0796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARMarker.app/ARMarker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARMarkerTests/ARMarkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE57F2C518BD96E4008F0796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARMarker.app/ARMarker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARMarker/ARMarker-Prefix.pch";
+				INFOPLIST_FILE = "ARMarkerTests/ARMarkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE57F28618BD96E4008F0796 /* Build configuration list for PBXProject "ARMarker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE57F2BE18BD96E4008F0796 /* Debug */,
+				EE57F2BF18BD96E4008F0796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE57F2C018BD96E4008F0796 /* Build configuration list for PBXNativeTarget "ARMarker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE57F2C118BD96E4008F0796 /* Debug */,
+				EE57F2C218BD96E4008F0796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE57F2C318BD96E4008F0796 /* Build configuration list for PBXNativeTarget "ARMarkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE57F2C418BD96E4008F0796 /* Debug */,
+				EE57F2C518BD96E4008F0796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE57F28318BD96E4008F0796 /* Project object */;
+}
